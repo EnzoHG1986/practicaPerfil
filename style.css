@@ -30,13 +30,13 @@ header {
     margin: 0 auto;
 }
 header .twitter {
-
+    display: flex;
 }
 header .twitter .logo-twitter {
     width: 3rem;
 }
 header .twitter .input-twitter {
-    width: 20.9rem;
+    width: 16.3vw;
     height: 3.4rem;
     border: none;
     border-radius: 21px;
@@ -94,7 +94,7 @@ header nav .img-menu {
 
 .container {
     display: flex;
-    gap: 1.5rem;
+    gap: 2vw;
     justify-content:space-around;
     margin: 0 auto;
 }
@@ -129,15 +129,16 @@ header nav .img-menu {
     border-radius: 21px;
     height: 3.8rem;
     font-weight: 500;
-    font-size: 1.2REM;
+    font-size: 1.2rem;
     color: white;
     padding-left: 20px;
 }
 .container main .happening .happening-adjuntos {
     display: flex;
-    gap: 4.6vw;
+/*     gap: 4.6vw; */
     padding-bottom: 24px;
-    padding-left: 129px;
+    padding-left: 6.7vw;
+    justify-content: space-around;
 }
 .container main .happening .happening-adjuntos .btn-adjuntos {
     display: flex;
