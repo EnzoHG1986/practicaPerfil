@@ -1,0 +1,182 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+@import url('https://v1.fontapi.ir/css/SFProDisplay:100;200;300;400;500;600;700;800;900');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'SF Pro Display';
+}
+:root {
+    --color-principal: rgba(127, 202, 255, 0.08);
+    --color-secundaria:#1B2B46;
+    --color-terciario: #1090F2;
+}
+
+body {
+    background-color: #080E24;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px 0;
+    width: 90vw;
+    display:flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+header .twitter {
+
+}
+header .twitter .logo-twitter {
+    width: 3rem;
+}
+header .twitter .input-twitter {
+    width: 20.9rem;
+    height: 3.4rem;
+    border: none;
+    border-radius: 21px;
+    background-color: var(--color-principal);
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: #888888;
+    padding-left: 21px;
+}
+header nav {
+    display: flex;
+    gap: 4rem;
+}
+header nav .btn-home {
+    width: 10.3rem;
+    height: 3.6rem;
+    border: none;
+    border-radius: 22px;
+    background-color: white;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+header nav .btn-home .btn-home-img {
+}
+header nav .img-nav {
+    height: 2rem;
+    
+}
+header nav .list-despl {
+    display: flex;
+    gap: 1rem;
+    background-color: var(--color-principal);
+    height: 3.5rem;
+    border-radius: 30px;
+}
+header nav .list-despl .img-despl {
+}
+header nav .list-despl select {
+    background-color: transparent;
+    border: none;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: white;
+    padding-right: 18px;
+}
+header nav .list-despl select option {
+}
+header nav .img-menu {
+    height: 2rem;
+}
+
+
+
+
+.container {
+    display: flex;
+    gap: 1.5rem;
+    justify-content:space-around;
+    margin: 0 auto;
+}
+
+
+.container main{
+    width: 46vw;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+.container main .happening {
+    width: 100%;
+    background-color: var(--color-principal);
+    border-radius: 21px;
+    margin: 0 auto;
+    
+
+}
+.container main .happening .happening-texto {
+    display: flex;
+    padding: 26px 31px;
+    gap: 2rem;
+}
+.container main .happening .happening-texto img {
+    height: 4.3rem;
+}
+.container main .happening .happening-texto  input {
+    width: 100%;
+    background-color: var(--color-principal);
+    border: none;
+    border-radius: 21px;
+    height: 3.8rem;
+    font-weight: 500;
+    font-size: 1.2REM;
+    color: white;
+    padding-left: 20px;
+}
+.container main .happening .happening-adjuntos {
+    display: flex;
+    gap: 4.6vw;
+    padding-bottom: 24px;
+    padding-left: 129px;
+}
+.container main .happening .happening-adjuntos .btn-adjuntos {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--color-principal);
+    border-radius: 36px;
+    padding: 10px 15px;
+    gap: 7px;
+}
+.container main .happening .happening-adjuntos .btn-adjuntos img {
+    height: 1.3rem;
+
+}
+.container main .happening .happening-adjuntos .btn-adjuntos p {
+    font-weight: 500;
+    font-size: .9rem;
+    color: white;
+}
+
+
+
+
+
+
+
+.container .aside-left {
+    background-color: var(--color-principal);
+    width: 22.4vw;
+    border-radius: 21px;
+}
+.aside-right {
+    background-color: var(--color-principal);
+    width: 22.4vw;
+    border-radius: 21px;
+}
+
+
+
+
+
+
+
