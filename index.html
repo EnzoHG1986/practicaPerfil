@@ -5,40 +5,110 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 
+<style>
+    * {
+        .oculto .navegador{
+            display: none;
+        }
+    }
+</style>
 <body>
     <header>
             <section class="twitter">
                 <img  class="logo-twitter" src="./imagenes/logos_twitter.png" alt="">
                 <input class="input-twitter" type="text" placeholder="# Explore">
             </section>
+
             <nav>
-                <button class="btn-home"><img class="btn-home-img" src="./imagenes/ant-design_home-filled.png" alt=""> Home</button>
-                <img class="img-nav" src="./imagenes/fe_app-menu.png" alt="">
-                <img class="img-nav" src="./imagenes/fluent_mail-16-filled.png" alt="">
-                <img class="img-nav" src="./imagenes/bxs_bell.png" alt="">
-                <div class="list-despl">
-                    <img  clas="img-despl"src="./imagenes/Ellipse 11.png" alt="">
-                    <select name="" id="">
-                        <option value="">Jude Ruzardio</option>
-                    </select>
+                <button id="btn-menu">
+                    <img class="img-menu" src="./imagenes/charm_menu-meatball.png" alt="">
+                </button>
+
+                <div id="navbar" class="navegador oculto">
+                    <button class="btn-home"><img class="btn-home-img" src="./imagenes/ant-design_home-filled.png" alt=""> Home</button>
+                    <img class="img-nav" src="./imagenes/fe_app-menu.png" alt="">
+                    <img class="img-nav" src="./imagenes/fluent_mail-16-filled.png" alt="">
+                    <img class="img-nav" src="./imagenes/bxs_bell.png" alt="">
+                    <div class="list-despl">
+                        <img  clas="img-despl"src="./imagenes/Ellipse 11.png" alt="">
+                        <select name="" id="">
+                            <option value="">Jude Ruzardio</option>
+                        </select>
+                    </div>
                 </div>
-                <img class="img-menu" src="./imagenes/charm_menu-meatball.png" alt="">
             </nav>
+
     </header>
 
-    
-    
-
-<div class="container">
-
-    <aside class="aside-left">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam doloribus veniam, facilis ipsam quas exercitationem? Vitae libero ipsam excepturi incidunt? Optio, ipsum delectus facilis omnis eaque praesentium provident iusto quas!</p>
-    </aside>
-    
     <main>
+        <aside class="aside-left">
+            <section class="container-usuario">
+                <div class="container-portada">
+                    <img class="img-portada" src="./imagenes/Rectangle 8.png" alt="">
+                </div>
+                <div class="container-descripcion">
+                    <img class="img-perfil" src="./imagenes/Ellipse 1.png" alt="">
+                    <div class="container-descri-user">
+                        <h1>Jude Ruzardio</h1>
+                        <h3>@designerjude</h3>
+                        <h2>Self taught UI/UX Designer | Currently <br>a Product Manager at Google</h2>
+                    </div>
+                    <div class="container-following">
+                        <div class="following-left">
+                            <p class="numbers">341</p>
+                            <p class="follow">Following</p>
+                        </div>
+                        <div class="following-right">
+                            <p class="numbers">1,485</p>
+                            <p class="follow">Following</p>
+                        </div>
+                    </div>
+                    <div class="profile">
+                        <p>Show Profile</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-people">
+                <h3 class="people">People you may know</h3>
+                <div class="container-people-follow">
+<!-- 
+                    <div class="follow-user">
+                        <img src="./imagenes/Ellipse 2.png" alt="" class="img-follow">
+                        <div class="date-follow">
+                            <p class="name-follow">Milli Smith</p>
+                            <p class="nick-follow">@Milli1243</p>
+                        </div>
+                        <button class="btn-follow">Follow</button>
+                    </div>
+-->
+<!-- 
+                    <div class="follow-user">
+                        <img src="./imagenes/Ellipse 3.png" alt="" class="img-follow">
+                        <div class="date-follow">
+                            <p class="name-follow">Tyrese</p>
+                            <p class="nick-follow">@codewithtyris</p>
+                        </div>
+                        <button class="btn-follow">Follow</button>
+                    </div>
+                    <div class="follow-user">
+                        <img src="./imagenes/Ellipse 4.png" alt="" class="img-follow">
+                        <div class="date-follow">
+                            <p class="name-follow">Mike Jr.</p>
+                            <p class="nick-follow">@mikkey</p>
+                        </div>
+                        <button class="btn-follow">Follow</button>
+-->
+                    </div>
+                </div>
+                <p class="follow-show">Show More</p>
+            </section>
+        </aside>
+
         <section class="happening">
             <div class="happening-texto">
                 <img src="./imagenes/Ellipse 11.png" alt="">
@@ -63,15 +133,12 @@
                 </div>
             </div>
         </section>
+
+        <aside class="aside-right">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui labore natus sequi ducimus? Praesentium eum quos, facilis, possimus provident porro eligendi dolorem, ad eius at tempore vel eos ratione molestiae.</p>
+        </aside>
     </main>
 
-    <aside class="aside-right">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui labore natus sequi ducimus? Praesentium eum quos, facilis, possimus provident porro eligendi dolorem, ad eius at tempore vel eos ratione molestiae.</p>
-    </aside>
 
-
-</div>
-
-    
 </body>
 </html>

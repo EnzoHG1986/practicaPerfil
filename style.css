@@ -31,9 +31,10 @@ header {
 }
 header .twitter {
     display: flex;
+    gap: 8px;
 }
 header .twitter .logo-twitter {
-    width: 3rem;
+    
 }
 header .twitter .input-twitter {
     width: 16.3vw;
@@ -46,6 +47,10 @@ header .twitter .input-twitter {
     color: #888888;
     padding-left: 21px;
 }
+
+
+
+
 header nav {
     display: flex;
     gap: 4rem;
@@ -63,7 +68,6 @@ header nav .btn-home .btn-home-img {
 }
 header nav .img-nav {
     height: 2rem;
-    
 }
 header nav .list-despl {
     display: flex;
@@ -90,39 +94,113 @@ header nav .img-menu {
 }
 
 
-
-
-.container {
-    display: flex;
-    gap: 2vw;
-    justify-content:space-around;
-    margin: 0 auto;
-}
-
-
-.container main{
+main{
     width: 46vw;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
 }
-.container main .happening {
+main .aside-left {
+    width: 22.4vw;
+}
+main .aside-left .container-usuario {
+    background-color: var(--color-principal);
+    border-radius: 21px;
+    text-align: center;
+}
+main .aside-left .container-usuario .container-portada {}
+main .aside-left .container-usuario .container-portada .img-portada {}
+main .aside-left .container-usuario .container-descripcion {}
+main .aside-left .container-usuario .container-descripcion .img-perfil {
+    
+}
+main .aside-left .container-usuario .container-descripcion .container-descri-user {}
+main .aside-left .container-usuario .container-descripcion .container-descri-user h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+main .aside-left .container-usuario .container-descripcion .container-descri-user h3 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #888888;
+}
+main .aside-left .container-usuario .container-descripcion .container-descri-user h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;;
+}
+main .aside-left .container-usuario .container-descripcion .container-following {
+    padding: 20px 0;
+    justify-content: center;
+    display: flex;
+}
+main .aside-left .container-usuario .container-descripcion .container-following .following-left {
+    margin: 0 auto;
+    
+}
+main .aside-left .container-usuario .container-descripcion .container-following .following-left .numbers {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+}
+main .aside-left .container-usuario .container-descripcion .container-following .following-left .follow {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #888888;
+}
+main .aside-left .container-usuario .container-descripcion .container-following .following-right {
+    margin: 0 auto;
+
+
+}
+main .aside-left .container-usuario .container-descripcion .container-following .following-right .numbers {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+}
+main .aside-left .container-usuario .container-descripcion .container-following .following-right .follow {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #888888;
+}
+main .aside-left .container-usuario .container-descripcion .profile {}
+main .aside-left .container-usuario .container-descripcion .profile p {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    padding: 25px 0;
+}
+main .aside-left .container-usuario .container-descripcion .profile p:hover {
+    color: var(--color-terciario);
+}
+
+
+
+
+
+
+
+
+
+
+main .happening {
     width: 100%;
     background-color: var(--color-principal);
     border-radius: 21px;
     margin: 0 auto;
-    
 
 }
-.container main .happening .happening-texto {
+main .happening .happening-texto {
     display: flex;
     padding: 26px 31px;
     gap: 2rem;
+    ba
 }
-.container main .happening .happening-texto img {
+main .happening .happening-texto img {
     height: 4.3rem;
 }
-.container main .happening .happening-texto  input {
+main .happening .happening-texto  input {
     width: 100%;
     background-color: var(--color-principal);
     border: none;
@@ -133,14 +211,14 @@ header nav .img-menu {
     color: white;
     padding-left: 20px;
 }
-.container main .happening .happening-adjuntos {
+main .happening .happening-adjuntos {
     display: flex;
 /*     gap: 4.6vw; */
     padding-bottom: 24px;
     padding-left: 6.7vw;
     justify-content: space-around;
 }
-.container main .happening .happening-adjuntos .btn-adjuntos {
+main .happening .happening-adjuntos .btn-adjuntos {
     display: flex;
     flex-direction: row;
     border: 1px solid var(--color-principal);
@@ -148,31 +226,17 @@ header nav .img-menu {
     padding: 10px 15px;
     gap: 7px;
 }
-.container main .happening .happening-adjuntos .btn-adjuntos img {
+main .happening .happening-adjuntos .btn-adjuntos img {
     height: 1.3rem;
-
 }
-.container main .happening .happening-adjuntos .btn-adjuntos p {
+main .happening .happening-adjuntos .btn-adjuntos p {
     font-weight: 500;
     font-size: .9rem;
     color: white;
 }
 
-
-
-
-
-
-
-.container .aside-left {
-    background-color: var(--color-principal);
+main .aside-right {
     width: 22.4vw;
-    border-radius: 21px;
-}
-.aside-right {
-    background-color: var(--color-principal);
-    width: 22.4vw;
-    border-radius: 21px;
 }
 
 
