@@ -48,9 +48,19 @@ header .twitter .input-twitter {
     padding-left: 21px;
 }
 
+header nav {
+    display: flex;
+}
+header nav button{
+    background-color: transparent;
+    border: none;
+}
+header nav .oculto {
+
+}
 
 
-
+/* 
 header nav {
     display: flex;
     gap: 4rem;
@@ -91,11 +101,12 @@ header nav .list-despl select option {
 }
 header nav .img-menu {
     height: 2rem;
-}
+} 
+*/
 
 
 main{
-    width: 46vw;
+    width: 90vw;
     display: flex;
     flex-direction: row;
     margin: 0 auto;
@@ -177,6 +188,60 @@ main .aside-left .container-usuario .container-descripcion .profile p:hover {
 
 
 
+main .container-people {
+    background-color: var(--color-principal);
+    border-radius: 21px;
+}
+main .container-people h3 {
+    color: white;
+    padding-top: 1.8rem;
+    padding-left: 1.8rem;
+}
+main .container-people .container-people-follow{}
+
+main .container-people .container-people-follow .follow-user {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1.8rem;
+
+}
+main .container-people .container-people-follow .follow-user .img-follow {
+
+}
+
+main .container-people .container-people-follow .follow-user .img-follow img{ }
+
+main .container-people .container-people-follow .follow-user .date-follow { }
+
+main .container-people .container-people-follow .follow-user .date-follow .name-follow { 
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+main .container-people .container-people-follow .follow-user .date-follow .nick-follow { 
+    color: #888888;
+}
+main .container-people .container-people-follow .follow-user .btn-follow {
+    background-color: white;
+    border-radius: 50px;
+    height: 2.6rem;
+    width: 6.4rem;
+    font-weight: 700;
+    font-size: 1.15rem;
+    border: none;
+}
+
+
+
+main .container-people .follow-show {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--color-terciario);
+    padding-top: 1.3rem;
+    padding-left: 1.8rem;
+    padding-bottom: 1rem;
+}
 
 
 
@@ -184,23 +249,30 @@ main .aside-left .container-usuario .container-descripcion .profile p:hover {
 
 
 
-main .happening {
+
+main .central {
+    width: 60vw;
+}
+
+
+
+
+main .central .happening {
     width: 100%;
     background-color: var(--color-principal);
     border-radius: 21px;
     margin: 0 auto;
 
 }
-main .happening .happening-texto {
+main .central .happening .happening-texto {
     display: flex;
     padding: 26px 31px;
     gap: 2rem;
-    ba
 }
-main .happening .happening-texto img {
-    height: 4.3rem;
+main .central .happening .happening-texto img {
+    height: 4rem;
 }
-main .happening .happening-texto  input {
+main .central .happening .happening-texto  input {
     width: 100%;
     background-color: var(--color-principal);
     border: none;
@@ -211,14 +283,14 @@ main .happening .happening-texto  input {
     color: white;
     padding-left: 20px;
 }
-main .happening .happening-adjuntos {
+main .central .happening .happening-adjuntos {
     display: flex;
 /*     gap: 4.6vw; */
     padding-bottom: 24px;
     padding-left: 6.7vw;
     justify-content: space-around;
 }
-main .happening .happening-adjuntos .btn-adjuntos {
+main .central .happening .happening-adjuntos .btn-adjuntos {
     display: flex;
     flex-direction: row;
     border: 1px solid var(--color-principal);
@@ -226,17 +298,73 @@ main .happening .happening-adjuntos .btn-adjuntos {
     padding: 10px 15px;
     gap: 7px;
 }
-main .happening .happening-adjuntos .btn-adjuntos img {
+main .central .happening .happening-adjuntos .btn-adjuntos img {
     height: 1.3rem;
 }
-main .happening .happening-adjuntos .btn-adjuntos p {
+main .central .happening .happening-adjuntos .btn-adjuntos p {
     font-weight: 500;
     font-size: .9rem;
     color: white;
 }
 
-main .aside-right {
+
+
+main .central .container-post {
+
+}
+main .central .container-post .container-single {
+    width: 100%;
+    background-color: var(--color-principal);
+    border-radius: 21px;
+    margin: 0 auto;
+
+}
+main .central .container-post .container-single .container-user {
+    display: flex;
+}
+main .central .container-post .container-single .container-user .img-user {
+    
+}
+main .central .container-post .container-single .container-user .img-user img {
+    border-radius: 50%;
+    height: 3.8rem;
+}
+main .central .container-post .container-single .container-descripcion {
+    display: flex;
+
+
+}
+main .central .container-post .container-single .container-descripcion p {
+
+}
+main .central .container-post .container-single .container-descripcion iframe { 
+
+}
+
+
+
+
+main .central .container-post .container-single .container-descripcion img {
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+main.aside-right {
     width: 22.4vw;
+    
 }
 
 
